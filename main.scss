@@ -238,6 +238,10 @@ body {
       border: 1px solid #eee;
       border-radius: 4px;
       box-shadow: 0 0 0.5rem rgba($color: black, $alpha: 0.2);
+      &:focus {
+        border-color: #f1860a;
+        box-shadow: 0 0 0 4px #ffe1de;
+      }
     }
     &__term {
       width: 100%;

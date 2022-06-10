@@ -126,6 +126,10 @@ body {
   border-radius: 4px;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
+.signup-form__input:focus {
+  border-color: #f1860a;
+  box-shadow: 0 0 0 4px #ffe1de;
+}
 .signup-form__term {
   width: 100%;
   margin-bottom: 5rem;
