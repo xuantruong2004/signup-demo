@@ -152,7 +152,7 @@ body {
   cursor: pointer;
 }
 .signup-form__submit:hover {
-  opacity: 0.9s;
+  opacity: 0.8;
 }
 .signup-form__submit i {
   font-size: 2rem;
