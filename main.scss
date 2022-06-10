@@ -94,7 +94,7 @@ body {
 //       left: 0;
 //       top: 50%;
 //       transform: translateY(-50%);
-//       transition: 0.35 ease;
+//       transition: 0.35s ease;
 //     }
 //   }
 // }
@@ -235,12 +235,13 @@ body {
       height: 3rem;
       font-size: 1.5rem;
       outline: none;
-      border: 1px solid #eee;
+      border: 1.5px solid #eee;
       border-radius: 4px;
       box-shadow: 0 0 0.5rem rgba($color: black, $alpha: 0.2);
       &:focus {
         border-color: #f1860a;
-        box-shadow: 0 0 0 4px #ffe1de;
+        // box-shadow: 0 0 0 4px #ffe1de;
+        transition: 0.5s ease;
       }
     }
     &__term {
@@ -284,6 +285,7 @@ body {
 }
 @media screen and(max-width:768px) {
   .signup {
+    padding: 2rem;
     @include flexbox(flex-start, flex-start, column);
     &__left,
     &__right {
