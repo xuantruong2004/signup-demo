@@ -151,6 +151,9 @@ body {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+.signup-form__submit:hover {
+  opacity: 0.9git;
+}
 .signup-form__submit i {
   font-size: 2rem;
 }

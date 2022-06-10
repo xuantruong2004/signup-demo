@@ -264,6 +264,9 @@ body {
       border-radius: 3rem;
       box-shadow: 0 0 1rem rgba($color: black, $alpha: 0.2);
       cursor: pointer;
+      &:hover {
+        opacity: 0.9git;
+      }
       & i {
         font-size: 2rem;
       }
